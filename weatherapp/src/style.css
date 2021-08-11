@@ -1,0 +1,104 @@
+body {
+  background: #f2dad6;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.card {
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+.city,
+.units,
+.temperature {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  text-align: right;
+  color: #fff;
+}
+
+.temperature {
+  display: inline;
+}
+.description,
+.wind {
+  text-align: right;
+  font-size: 18px;
+  font-family: "Dosis", sans-serif;
+  color: #fff;
+}
+
+.searchbutton,
+.currentLocationButton {
+  padding: 1px 5px;
+  font-size: 11px;
+}
+.currentLocationButton {
+  background-color: #c5e8e2;
+}
+
+.date {
+  text-align: right;
+  font-size: 22px;
+  font-family: "Dosis", sans-serif;
+}
+
+.App {
+  font-size: 40px;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-bottom: 0px;
+}
+
+.row {
+  margin-top: 0 auto;
+}
+
+.day {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.goodmusic,
+.forecast {
+  border: 1px solid #fff;
+  background-color: #c5e8e2;
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #dd9194;
+  position: relative;
+  line-height: 25px;
+}
+span {
+  padding: 5px;
+}
+.goodmusic {
+  font-weight: bolder;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.SheCodesRadio {
+  font-size: 11px;
+  text-decoration: none;
+  color: grey;
+}
+
+.SheCodesRadio:hover {
+  color: #dd9194;
+}
+.card-footer {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
